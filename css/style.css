@@ -1,0 +1,122 @@
+.left-block {
+    width: 570px;
+    height: 320px;
+    background-color: blue;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.right-block {
+    width: 570px;
+    height: 320px;
+    background-color: coral;
+}
+.wraper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+
+/* block example */
+
+/* pseudo classes */
+.block {
+    width: 371px;
+    height: 374px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+
+}
+.block:first-child {
+    background-color: lime;
+    margin-bottom: 25px;
+}
+.block:nth-child(2) {
+    background-color: red;
+    margin-bottom: 25px;
+}
+.block:nth-child(3) {
+    background-color: aqua;
+    margin-bottom: 25px;
+}
+.block:nth-child(4) {
+    background-color: yellow;
+}
+.block:nth-child(5) {
+    background-color: blue;
+}
+.block:last-child {
+    background-color: pink;
+}
+
+/* .block:nth-child(even) {
+    background-color: mediumslateblue;
+}
+.block:nth-child(odd) {
+    background-color: navy;
+} */
+/* .block:nth-child(3n) {
+
+} */
+.block:nth-child(3) .test {
+    color: #fff;
+}
+
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+    background-color: lightslategray;
+}
+.line1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+
+.icon {
+    width: 88px;
+    height: 88px;
+    background-color: #325DFF;
+    border-radius: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.text-block {
+    width: 253px;
+    background-color: orchid;
+    text-align: center;
+}
+
